@@ -10,7 +10,6 @@ import {
   FlatList,
 } from "react-native";
 
-// Định nghĩa các hình ảnh
 const images = {
   icon: require("../../assets/images/usb.jpg"),
 };

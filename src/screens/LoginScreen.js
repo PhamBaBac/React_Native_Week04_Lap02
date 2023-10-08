@@ -3,6 +3,7 @@ import { useState } from "react";
 import { StyleSheet, TextInput, Text, View, Pressable } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
 
+//khai báo mảng data
 var data = [
   {
     id: 1,
@@ -16,7 +17,9 @@ var data = [
   },
 ];
 
+//
 const LoginScreen = () => {
+
   const [hidePassword, setHidePassword] = useState(true);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -88,8 +91,8 @@ const styles = StyleSheet.create({
   },
   loginLogo: {
     flex: 1,
-    alignItems: "flex-start", // Để căn trái
-    justifyContent: "flex-end", // Để căn dưới
+    alignItems: "flex-start", 
+    justifyContent: "flex-end", 
     paddingLeft: 10,
   },
   loginText: {
@@ -119,7 +122,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 20,
     color: "#000000",
-    textAlign: "center", // Để căn giữa theo chiều ngang
+    textAlign: "center", 
     textAlignVertical: "center",
   },
   useIcon: {
@@ -133,7 +136,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     fontSize: 20,
     color: "#000000",
-    textAlign: "center", // Để căn giữa theo chiều ngang
+    textAlign: "center", 
     textAlignVertical: "center",
   },
   eyeIcon: {

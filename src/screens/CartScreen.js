@@ -11,7 +11,7 @@ import {
 
 const images = {
   icon: require("../../assets/images/book.jpg"),
-};
+};  
 
 const CartScreen = () => {
   const [quantity, setQuantity] = useState(1);
