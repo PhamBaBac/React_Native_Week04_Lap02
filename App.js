@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import Product from "./src/component/ReviewScreen";
-import LoginScreen from "./src/component/LoginScreen";
-import GeneratePasswordScreen from "./src/component/GeneratePasswordScreen";
-import CartScreen from "./src/component/CartScreen";
+import Product from "./src/screens/ReviewScreen";
+import LoginScreen from "./src/screens/LoginScreen";
+import GeneratePasswordScreen from "./src/screens/GeneratePasswordScreen";
+import CartScreen from "./src/screens/CartScreen";
 
 export default function App() {
   return (
